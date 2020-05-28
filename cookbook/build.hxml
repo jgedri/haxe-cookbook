@@ -1,0 +1,10 @@
+# Windows maybe needs this define
+-D EMSCRIPTEN_SDK
+
+-D HXCPP_LINK_EMSCRIPTEN_EXT=.html
+
+# Tell hxcpp to use emscripten
+-D emscripten
+
+-cpp out
+-main Main
